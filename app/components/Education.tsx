@@ -39,6 +39,7 @@ export default function Education() {
                     className="object-contain w-full h-full"
                   />
                 </div>
+                <br />
                 <div className="text-center">
                   <h3 className="text-xl font-bold text-white">{edu.school}</h3>
                   <p className="text-violet-400 mt-2">{edu.degree}</p>
