@@ -15,7 +15,7 @@ const educationData = [
     degree: "Bachelor of Engineering - BE, Electrical and Electronics Engineering",
     date: "Aug 2017 - Jul 2021",
     gpa: "3.88/4.0 - Gold Medalist",
-    logo: "portfolio/Anna_University_Logo.svg.png",
+    logo: "/portfolio/Anna_University_Logo.svg.png",
   },
 ]
 
@@ -32,12 +32,11 @@ export default function Education() {
               className="bg-[#1f0733] rounded-lg p-6 shadow-lg transition-transform transform hover:scale-105 hover:shadow-2xl hover:shadow-violet-700 duration-300 flex flex-col"
             >
               <div className="flex flex-col items-center">
-                <div className="w-32 h-32 relative mb-4">
-                  <Image
+                <div className="w-32 h-32 flex items-center justify-center">
+                  <img
                     src={edu.logo}
                     alt={`${edu.school} logo`}
-                    fill
-                    className="object-contain"
+                    className="object-contain w-full h-full"
                   />
                 </div>
                 <div className="text-center">
