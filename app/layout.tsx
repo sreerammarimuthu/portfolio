@@ -8,8 +8,10 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Sreeram Marimuthu - Portfolio",
   description: "Data Scientist | Researcher | ML Engineer",
-    generator: 'v0.dev'
-}
+  icons: {
+    icon: "/portfolio/favicon.webp", 
+  },
+};
 
 export default function RootLayout({
   children,
