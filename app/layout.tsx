@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "Sreeram Marimuthu - Portfolio",
   description: "Data Scientist | Researcher | ML Engineer",
   icons: {
-    icon: "/portfolio/favicon1.webp", 
+    icon: "/portfolio/favicon2.webp", 
   },
 };
 
