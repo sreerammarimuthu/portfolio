@@ -58,7 +58,7 @@ export default function About() {
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-lg overflow-hidden">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PFF.JPG-UTZyY88gsb2ROQHtzBxftSCD3xp55o.jpeg"
+                src="/public/PFF.jpg"
                 alt="Sreeram Marimuthu"
                 layout="fill"
                 objectFit="cover"

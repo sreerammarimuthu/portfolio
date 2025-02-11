@@ -3,8 +3,7 @@
 import { useEffect, useRef } from "react"
 import { FaGithub, FaLinkedin, FaEnvelope, FaChevronDown, FaFileDownload } from "react-icons/fa"
 
-const RESUME_URL =
-  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Sreeram_Marimuthu_Resume-Hy5Ue5Hy9Hy9Hy9Hy9.pdf"
+const RESUME_URL =  "/public/Sreeram_Marimuthu_Resume.pdf"
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
@@ -113,8 +112,7 @@ export default function Hero() {
           </a>
           <a
             href={RESUME_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+            download
             className="bg-white bg-opacity-20 p-3 rounded-full hover:bg-opacity-30 transition-all mb-2 sm:mb-0"
             aria-label="Download Resume"
           >
