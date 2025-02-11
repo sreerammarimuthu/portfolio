@@ -69,9 +69,3 @@ export default function About() {
     </section>
   )
 }
-
-<img
-  src="/portfolio/PFF.JPG"
-  alt="Sreeram Marimuthu"
-  className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-contain rounded-lg"
-/>
