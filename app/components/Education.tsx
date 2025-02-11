@@ -34,7 +34,7 @@ export default function Education() {
               <div className="flex flex-col items-center">
                 <div className="w-32 h-32 relative mb-4">
                   <Image
-                    src={edu.logo || "/placeholder.svg"}
+                    src={edu.logo}
                     alt={`${edu.school} logo`}
                     fill
                     className="object-contain"
