@@ -8,14 +8,14 @@ const educationData = [
     degree: "Master of Science - MS, Data Science",
     date: "Aug 2023 - May 2025",
     gpa: "4.0/4.0",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WPI_logo-8hseqGP97C048TUHxfg1gXuFH1hY3A.png",
+    logo: "/portfolio/WPI_logo.png",
   },
   {
     school: "Anna University",
     degree: "Bachelor of Engineering - BE, Electrical and Electronics Engineering",
     date: "Aug 2017 - Jul 2021",
     gpa: "3.88/4.0 - Gold Medalist",
-    logo: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Anna_University_Logo.svg-fiKS1ScnzgoLdrH9h3bxBPkVpDMSYP.png",
+    logo: "portfolio/Anna_University_Logo.svg.png",
   },
 ]
 
