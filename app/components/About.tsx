@@ -57,13 +57,10 @@ export default function About() {
           </div>
           <div className="order-1 md:order-2 flex justify-center">
             <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px] rounded-lg overflow-hidden">
-              <Image
-                src="/portfolio/Sreeram.jpg"
-                alt="Sreeram Marimuthu"
-                width={400}
-                height={400}
-                objectFit="cover"
-                priority
+              <img 
+                src="/portfolio/Sreeram.jpg" 
+                alt="Sreeram Marimuthu" 
+                className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-contain rounded-lg"
               />
             </div>
           </div>
@@ -73,3 +70,8 @@ export default function About() {
   )
 }
 
+<img
+  src="/portfolio/PFF.JPG"
+  alt="Sreeram Marimuthu"
+  className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] object-contain rounded-lg"
+/>
