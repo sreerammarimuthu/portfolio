@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Ensures static export
-  basePath: '/portfolio', // Ensures paths are correctly set for GitHub Pages
-  trailingSlash: true, // Ensures all paths have a trailing slash for GitHub Pages compatibility
+  output: 'export', // Enables static export
+  basePath: '/portfolio', // Ensures correct asset paths for GitHub Pages
+  trailingSlash: true, // Ensures compatibility with GitHub Pages
 };
 
 module.exports = nextConfig;
