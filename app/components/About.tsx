@@ -60,7 +60,8 @@ export default function About() {
               <Image
                 src="/portfolio/PFF.JPG"
                 alt="Sreeram Marimuthu"
-                layout="fill"
+                width={400}
+                height={400}
                 objectFit="cover"
                 priority
               />
