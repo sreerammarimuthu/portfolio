@@ -15,7 +15,7 @@ import {
   FaChevronUp,
 } from "react-icons/fa"
 
-function getIconForTitle(title) {
+function getIconForTitle(title: string) {
   switch (title) {
     case "Predictive Modeling for COVID-19 Research Insights":
       return <FaChartLine className="text-4xl text-violet-400" />
@@ -176,7 +176,7 @@ const projects = [
 export default function ResearchProjects() {
   const [expandedProject, setExpandedProject] = useState<number | null>(null)
 
-  const toggleExpand = (index) => {
+  const toggleExpand = (index: number) => {
     setExpandedProject(expandedProject === index ? null : index)
   }
 
@@ -197,7 +197,8 @@ export default function ResearchProjects() {
                            duration-300 flex flex-col"
               >
                 <div className="flex flex-col items-center mb-4">
-                  <div className="mb-3">{getIconForTitle(project.title || project.titleLine1)}</div>
+                  <div className="mb-3">{getIconForTitle(project.titleLine1)}</div>
+
                   {project.titleLine1 && project.titleLine2 ? (
                     <h3 className="text-xl font-semibold text-white text-center">
                       {project.titleLine1}
@@ -205,7 +206,7 @@ export default function ResearchProjects() {
                       {project.titleLine2}
                     </h3>
                   ) : (
-                    <h3 className="text-xl font-semibold text-white text-center">{project.title}</h3>
+                    <h3 className="text-xl font-semibold text-white text-center">{project.titleLine1}</h3>
                   )}
                   <p className="text-sm text-violet-200 text-center">{project.date}</p>
                 </div>
