@@ -144,7 +144,7 @@ const experiences = [
       "Maintained zero defects across 8+ releases through rigorous manual, API, and headless testing to ensure top-tier product quality.",
       "Automated critical workflows (e.g., contact creation) cutting the execution time from 2-3 minutes to instant, boosting operational efficiency and user experience.",
       "Delivered quality assurance across Agile and Waterfall methodologies, adapting testing frameworks to evolving needs.",
-      "Sole Subject Matter Expert for secure, customer-facing data channels (FIRE), ensuring compliance and data integrity. Ensured it remained defect-free environment across 10 releases."
+      "Sole Subject Matter Expert for secure, customer-facing data channels (FIRE), ensuring compliance and data integrity. Ensured it remained defect-free environment across 10 releases.",
       "Identified and implemented innovative QA strategies, including headless testing and proactive risk assessments, to stay ahead of product-related challenges.",
       "Completed pre-onboarding training with 100% coding accuracy in Python, SQL, XML, and test frameworks (Selenium, TestNG, UFT), accelerating readiness for full-time responsibilities.",
     ],
