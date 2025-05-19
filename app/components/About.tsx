@@ -13,35 +13,20 @@ export default function About() {
               Hi, I'm Sreeram
             </h1>
             <p className="text-gray-300 mb-6 text-justify">
-              I'm a Data Science graduate student at WPI, currently wrapping up
-              my final semester with a 4.0 GPA and an unwavering curiosity for
-              meaningful research. My work centers on leveraging data to drive
-              impact across Healthcare Systems, Geo-Spatial Analysis, Clinical
-              Research, Crime Analytics, and Non-Profit initiatives.
+              I'm a Data Science graduate from WPI with a 4.0 GPA and an unwavering curiosity for meaningful research. My experience has primarily involved utilizing data to drive impactful research across Behavioral Analytics, Healthcare Systems, Clinical Research, Geo-Spatial Analysis, Crime Analytics, and Non-Profit initiatives.
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              My current research focuses on{" "}
-              <b>Human in the Loop: Data Acquisition</b>, enhancing AI–Human
-              collaboration in data preparation and pinpointing potential{" "}
-              <b>biases by AI</b> in job-matching (think gender, race, and age -
-              yes, it's as fascinating as it sounds). For my Graduate Qualifying
-              Project, I partnered with Discern Health to set up Machine
-              Learning experiments and build predictive models that identify
-              phenotypes and assess frailty in older populations using
-              healthcare claims data.
+              I bring 2+ years of full-time experience as an Analyst at Accenture, along with extensive research exposure at ACT & WPI. My current research dives deep into <b>Human-in-the-Loop: Data Integration</b>, enhancing Human–AI convergence and determining hidden <b>biases in AI job-matching algorithms</b> (gender, race, age, status – Interesting, right?). Most recently, I first-authored a paper on cognitive reasoning between humans, ML, and LLMs, accepted at ACM SIGMOD HILDA 2025.
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              When I'm not elbow-deep in data, I'm kicking a soccer ball,
-              watching a movie, or embarking on my next hiking adventure.{" "}
-              <span className="text-violet-300">
-                <b>
-                  {" "}
-                  I'm actively searching for full-time opportunities starting
-                  Spring/Summer 2025
-                </b>
+              For my Graduate Qualifying Project, I partnered with Discern Health to build predictive models identifying phenotypes and assessing frailty in older populations using healthcare claims data.
+            </p>
+            <p className="text-gray-300 mb-6 text-justify">
+              When I'm not elbow-deep in data, I’m either kicking a soccer ball, watching a movie/anime, or off on a hiking trail.{" "}
+              <span className="text-violet-300 font-bold">
+                I’m actively looking for full-time roles starting Summer 2025
               </span>
-              , so if you're looking for someone who lives for the next big
-              challenge, let's connect!
+              , so if you’re after someone who thrives on solving the next biggest challenge, let’s connect!
             </p>
             <div className="flex space-x-4">
               <a
