@@ -1,4 +1,4 @@
-# Portfolio – Sreeram Marimuthu
+# Portfolio - Sreeram Marimuthu
 Welcome to my personal portfolio website's repo, built using Next.js, Tailwind CSS, TypeScript, and Vercel (LLM), and deployed via GitHub Pages. This website serves as a curated space for sharing my professional experience, projects, and publications, in data science, research, and AI.
 
 ## Methodology 
