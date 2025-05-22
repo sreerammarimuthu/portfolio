@@ -13,6 +13,6 @@ Vercel & GitHub Pages - CI/CD & hosting pipeline
 GitHub Actions - Deployment  
 Modular Components - Built from scratch for reusability and clarity  
 
-🔗 Live Site - View it here: https://sreerammarimuthu.github.io/portfolio/ 
+### Live Site - View it here: https://sreerammarimuthu.github.io/portfolio/ 
 
 #### This repo is both an interesting personal experiment in LLM efficiency and a public-facing portfolio that clearly showcases my technical and research expertise.
