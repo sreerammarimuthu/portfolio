@@ -1,10 +1,10 @@
 # Portfolio - Sreeram Marimuthu
 This is my personal portfolio website's repo, built using Next.js, Tailwind CSS, TypeScript, and Vercel (LLM), and deployed via GitHub Pages. This website serves as an organized space for sharing my professional experience, projects, and publications, in data science, research, and AI.
 
-## Methodology 
+## Approach 
 I built this portfolio website from scratch in 2 days using an online Large Language Model (Vercel) to test how efficiently an LLM could help design a professional website. I used prompt engineering to structure the layout, and have been updating the content periodically since then.
 
-## Built With
+## Tools
 Next.js - Web framework  
 TypeScript - Strong typing support  
 Tailwind CSS - Utility-first CSS for responsive styling  
