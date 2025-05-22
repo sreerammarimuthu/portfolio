@@ -2,7 +2,7 @@
 This is my personal portfolio website's repo, built using Next.js, Tailwind CSS, TypeScript, and Vercel (LLM), and deployed via GitHub Pages. This website serves as an organized space for sharing my professional experience, projects, and publications, in data science, research, and AI.
 
 ## Approach 
-I built this portfolio website from scratch in 2 days using an online Large Language Model (Vercel) to test how efficiently an LLM could help design a professional website. I used prompt engineering to structure the layout, and have been updating the content periodically since then.
+I built this portfolio website from scratch in 2 days using an online Large Language Model (Vercel) to test how efficiently an LLM could help design a professional website as part of a personal experiment. I used prompt engineering to structure the layout, and have been updating the content periodically since then. 
 
 ## Tools
 Next.js - Web framework  
@@ -13,6 +13,5 @@ Vercel & GitHub Pages - CI/CD & hosting pipeline
 GitHub Actions - Deployment  
 Modular Components - Built from scratch for reusability and clarity  
 
-### View the live site here: https://sreerammarimuthu.github.io/portfolio/ 
-
-#### This repo is both an interesting personal experiment in LLM efficiency and a public-facing portfolio that clearly showcases my technical and research expertise.
+## Live Portfolio
+View the live site here: https://sreerammarimuthu.github.io/portfolio/ 
