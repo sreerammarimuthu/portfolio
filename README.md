@@ -13,5 +13,5 @@ Vercel & GitHub Pages - CI/CD & hosting pipeline
 GitHub Actions - Deployment  
 Modular Components - Built from scratch for reusability and clarity  
 
-## Live Portfolio
+## Portfolio Website
 View the live site here: https://sreerammarimuthu.github.io/portfolio/ 
