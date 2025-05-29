@@ -26,7 +26,7 @@ export default function GetInTouch() {
           >
             <FaEnvelope className="text-5xl text-violet-400 mb-4" />
             <h3 className="text-2xl font-semibold text-white mb-2">Email</h3>
-            <p className="text-violet-300 text-center">Drop me a line, I promise I don't byte!</p>
+            <p className="text-violet-300 text-center">Please feel free to reach out.</p>
           </Link>
         </div>
       </div>
