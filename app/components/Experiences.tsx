@@ -43,11 +43,11 @@ const experiences = [
       "Investigating the interplay between large language models (LLMs), machine learning (ML), and human metacognition to address bias, trust, and usability in AI-assisted decision-making.",
       "Designing and executing cognitive experiments that simulate real-world data acquisition, quantifying human reasoning under uncertainty using principles from psychology and AI.",
       "Exploring behavioral patterns in Human-AI collaboration over tabular data, with emphasis on error correction, judgment calibration, and interpretability.",
-      "First authoring a paper advancing the field of Human-AI collaboration in the context of tabular data search and preparation.",
+      "First authored a paper advancing the field of Human-AI collaboration in the context of tabular data search and preparation.",
     ],
   },
   {
-    title: "Data Analyst | Ambassador | Peer Liaison",
+    title: "Data Analyst | Ambassador",
     company: "WPI Graduate & Professional Studies",
     date: "September 2024 - May 2025",
     duration: "9 months",
