@@ -19,7 +19,7 @@ const experiences = [
   {
     title: "Research Analyst",
     company: "City of Worcester",
-    date: "September 2024 - Present",
+    date: "September 2024 - May 2025",
     duration: "9 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaSearch,
