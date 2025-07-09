@@ -18,7 +18,7 @@ import {
 const experiences = [
     {
     title: "Data Scientist",
-    company: "Harvard Medical School & Mass General Hospital",
+    company: "Harvard Medical School & Massachusetts General Hospital",
     date: "June 2025 - Present",
     duration: "2 months",
     location: "Boston, Massachusetts, United States",
