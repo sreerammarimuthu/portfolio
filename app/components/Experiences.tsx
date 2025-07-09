@@ -16,6 +16,20 @@ import {
 } from "react-icons/fa"
 
 const experiences = [
+    {
+    title: "Data Scientist",
+    company: "Harvard Medical School & Mass General Hospital",
+    date: "June 2025 - Present",
+    duration: "2 months",
+    location: "Boston, Massachusetts, United States",
+    icon: FaSearch,
+    description: [
+      "In this summer internship, I'm currently engaged in research projects with Dr. Zhen Duan's team in the Disparities Research Unit at Harvard Medical School & Mass General Hospital.",
+      "Researching on how childhood trauma (ACEs) shapes alcohol use, using interviews and surveys with underserved communities, utilizing both Qualitative & Mixed Methods.",
+      "Co-writing two papers: code medical data, data pre-processing, run logistic and mixed models, draft journal-ready findings.",
+      "Cleaned & analyzed high dimensional survey dataset, linking trauma profiles to AUDs, guiding targeted health programs.",
+    ],
+  },
   {
     title: "Research Analyst",
     company: "City of Worcester",
@@ -34,8 +48,8 @@ const experiences = [
   {
     title: "Research Study Assistant",
     company: "Worcester Polytechnic Institute",
-    date: "August 2024 - Present",
-    duration: "11 months",
+    date: "August 2024 - May 2025",
+    duration: "10 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaGraduationCap,
     description: [
@@ -95,7 +109,7 @@ const experiences = [
     company: "Act",
     date: "May 2024 - July 2024",
     duration: "3 months",
-    location: "Worcester, Massachusetts, United States",
+    location: "Dallas, Texas, United States",
     icon: FaSearch,
     description: [
       "Managed geo-spatial & crime data analysis across four major Texas cities, leveraging Google Maps and data mining techniques, including insights from US Census data to inform legal strategy and feasibility reports.",
