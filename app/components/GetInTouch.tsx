@@ -7,7 +7,7 @@ export default function GetInTouch() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center text-white mb-8">Get in Touch</h2>
         <p className="text-xl text-center text-violet-300 mb-12">
-          Please feel free to reach out. I’m currently seeking roles where I can apply my analytical skills and research mindset to create real-world impact.
+          Open to opportunities where I can leverage my analytical skills and research mindset to drive meaningful, real-world impact.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <Link
