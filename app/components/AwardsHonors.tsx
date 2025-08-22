@@ -63,7 +63,7 @@ const volunteering = [
   },
   {
     role: "Class Representative",
-    organization: "Easwari Engineering College(SRM Group)",
+    organization: "Easwari Engineering College (AU)",
     date: "Aug 2017 - Aug 2019",
   },
   {
