@@ -16,7 +16,7 @@ export default function About() {
               I'm a Data Scientist/AI Researcher, graduated from WPI (4.0 GPA), I thrive at the intersection of curiosity and impact. My work spans Behavioral Analytics, Healthcare Systems, Clinical Research, Geo-Spatial Analysis, Crime Analytics, and Non-Profit initiatives, where I utilized data to drive meaningful research.
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              I bring 2+ years of professional experience at Accenture as an Analyst, along with extensive research exposure at ACT & WPI. My research work so far dived deep into Human-in-the-Loop enhancing Human-AI convergence, hidden biases in AI job-matching systems(gender, race, age, status) and leveraging AI for upscaling resource sharing among NPOs. 
+              I bring 2+ years of professional experience at Accenture as an Analyst, along with extensive research exposure at ACT & WPI. My research work so far dived deep into Human-in-the-Loop DA, hidden biases in AI job-matching systems(gender, race, age, status) and leveraging AI for upscaling resource sharing among NPOs. 
             </p>
             <p className="text-gray-300 mb-6 text-justify">
               Recently, I first-authored a paper on Cognitive reasoning across humans, ML, and LLMs, published at ACM SIGMOD HILDA 2025. I also co-authored couple of interesting Clinical Research papers over the summer at Harvard-MGH. 
