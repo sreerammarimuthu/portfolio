@@ -40,7 +40,7 @@ const experiences = [
     description: [
       "Collaborated once again with Dr. Andrew Trapp this time on the SWAP project, leveraging AI to improve resource-sharing among nonprofits.",
       "Built and integrated AI to the existing SWAP hub (a resource-sharing platform for NPOs), to improve scalability by identifying potential unseen matches based on previous offers and NPO specific information.",
-      "Utilized the latest OSS model with browsing capabilities, to suggest real-time additional needs based on primary needs listed, and improve user experience among NPOs for a smooth barter system.",
+      "Implemented the latest OSS model with browsing capabilities, to suggest real-time additional needs based on primary needs listed, and improve user experience among NPOs for a smooth barter system.",
     ],
   },
   {
