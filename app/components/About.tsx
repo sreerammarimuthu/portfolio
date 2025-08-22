@@ -22,9 +22,9 @@ export default function About() {
               Recently, I first-authored a paper on Cognitive reasoning across humans, ML, and LLMs, published at ACM SIGMOD HILDA '25. I also co-authored 2 interesting Clinical Research papers over the summer at Harvard-MGH. For my GQP with Discern Health, I built predictive ML models to determine phenotypes and assessing frailty in older populations using healthcare claims, ICD-10 codes, sociodemographic & HCC data. 
             </p>                      
             <p className="text-gray-300 mb-6 text-justify">
-              Beyond data/AI, you'll find me on the soccer field, immersed in a movie or anime, or hiking trails. I’m excited to bring my unique set of analytical skills, research mindset, and drive for real-world impact 
+              Beyond data/AI, you'll find me on the soccer field, immersed in a movie or anime, or hiking trails.{" "}
               <span className="text-violet-300 font-bold">
-                to full-time positions starting Fall '25,{" "}
+                 Actively seeking full-time positions, where I can drive real-world impact with my analytical skill & research mindset.{" "}
               </span>
                so if you’re after someone who thrives on solving complex challenges, let’s connect!
             </p>
