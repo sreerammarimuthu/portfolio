@@ -19,15 +19,15 @@ export default function About() {
               I bring 2+ years of professional experience at Accenture as an Analyst, along with extensive research exposure at ACT & WPI. My current research dives deep into Human-in-the-Loop Data Integration enhancing Human-AI convergence, studying hidden biases in AI job-matching systems (gender, race, age, status) and leveraging AI for upscaling resource sharing among NPOs. 
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              Recently, I first-authored a paper on Cognitive reasoning across humans, ML, and LLMs, published at ACM SIGMOD HILDA 2025. I also co-authored couple of interesting Clinical Research papers focused on Psychology handling 'Latent Class Profiling' & 'Two part semicontinuous modeling' over the summer (both under review), working as a Data Scientist Intern at Harvard-MGH. 
+              Recently, I first-authored a paper on Cognitive reasoning across humans, ML, and LLMs, published at ACM SIGMOD HILDA 2025. I also co-authored couple of interesting Clinical Research papers over the summer at Harvard-MGH. 
             </p>
             <p className="text-gray-300 mb-6 text-justify">
               For my GQP, I partnered with Discern Health in Fall '24, and built predictive ML models to determine phenotypes and assessing frailty in older populations using healthcare claims, ICD-10 codes, sociodemographic & HCC data.            
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              I’m excited to bring my unique set of analytical skills, research mindset, and drive for real-world impact {" "}
+              Beyond data/AI, you'll find me on the soccer field, immersed in a movie or anime, or hiking trails. I’m excited to bring my unique set of analytical skills, research mindset, and drive for real-world impact {" "}
               <span className="text-violet-300 font-bold">
-                 to full-time positions starting Fall '25,
+                 to full-time positions starting Fall '25, 
               </span>
                so if you’re after someone who thrives on solving complex challenges, let’s connect!
             </p>
