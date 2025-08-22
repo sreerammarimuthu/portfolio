@@ -82,7 +82,7 @@ export default function Hero() {
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center text-center px-4">
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4">Sreeram Marimuthu</h1>
         <h2 className="text-xl sm:text-2xl md:text-3xl mb-8 text-gray-200">
-          Data Scientist | Research Analyst | ML Engineer
+          Data Scientist | AI/ML Researcher
         </h2>
         <div className="flex flex-wrap justify-center space-x-4 mb-8">
           <a
