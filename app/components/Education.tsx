@@ -13,7 +13,7 @@ const educationData = [
   {
     school: "Anna University",
     degree: "Bachelor of Engineering - BE, Electrical and Electronics Engineering",
-    date: "Aug 2017 - Jul 2021",
+    date: "Aug 2017 - May 2021",
     gpa: "3.88/4.0 - Gold Medalist",
     logo: "/portfolio/Anna_University_Logo.svg.png",
   },
