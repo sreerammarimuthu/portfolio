@@ -13,20 +13,23 @@ export default function About() {
               Hi, I'm Sreeram
             </h1>
             <p className="text-gray-300 mb-6 text-justify">
-              I'm a Data Science graduate from WPI with a 4.0 GPA and an unwavering curiosity for meaningful research. My experience has primarily involved utilizing data to drive impactful research across Behavioral Analytics, Healthcare Systems, Clinical Research, Geo-Spatial Analysis, Crime Analytics, and Non-Profit initiatives.
+              I'm a Data Scientist/AI Researcher, graduated from WPI (4.0 GPA), I thrive at the intersection of curiosity and impact. My work spans Behavioral Analytics, Healthcare Systems, Clinical Research, Geo-Spatial Analysis, Crime Analytics, and Non-Profit initiatives, where I utilized data to drive meaningful research.
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              I bring 2+ years of full-time experience as an Analyst at Accenture, along with extensive research exposure at ACT & WPI. My current research dives deep into <b>Human-in-the-Loop: Data Integration</b>, enhancing Human–AI convergence and determining hidden <b>biases in AI job-matching algorithms</b> (gender, race, age, status – Interesting, right?). Most recently, I first-authored a paper on cognitive reasoning between humans, ML, and LLMs, accepted at ACM SIGMOD HILDA 2025.
+              I bring 2+ years of professional experience at Accenture as an Analyst, along with extensive research exposure at ACT & WPI. My current research dives deep into Human-in-the-Loop Data Integration enhancing Human-AI convergence, studying hidden biases in AI job-matching systems (gender, race, age, status) and leveraging AI for upscaling resource sharing among NPOs. 
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              For my Graduate Qualifying Project, I partnered with Discern Health to build predictive models identifying phenotypes and assessing frailty in older populations using healthcare claims data.
+              Recently, I first-authored a paper on Cognitive reasoning across humans, ML, and LLMs, published at ACM SIGMOD HILDA 2025. I also co-authored couple of interesting Clinical Research papers focused on Psychology handling 'Latent Class Profiling' & 'Two part semicontinuous modeling' over the summer (both under review), working as a Data Scientist Intern at Harvard-MGH. 
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              When I'm not elbow-deep in data, I’m either kicking a soccer ball, watching a movie/anime, or off on a hiking trail.{" "}
+              For my GQP, I partnered with Discern Health in Fall '24, and built predictive ML models to determine phenotypes and assessing frailty in older populations using healthcare claims, ICD-10 codes, sociodemographic & HCC data.            
+            </p>
+            <p className="text-gray-300 mb-6 text-justify">
+              I’m excited to bring my unique set of analytical skills, research mindset, and drive for real-world impact {" "}
               <span className="text-violet-300 font-bold">
-                I’m actively looking for full-time roles starting Summer 2025
+                 to full-time positions starting Fall '25,
               </span>
-              , so if you’re after someone who thrives on solving the next biggest challenge, let’s connect!
+               so if you’re after someone who thrives on solving complex challenges, let’s connect!
             </p>
             <div className="flex space-x-4">
               <a
