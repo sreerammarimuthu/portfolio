@@ -24,9 +24,9 @@ export default function About() {
             <p className="text-gray-300 mb-6 text-justify">
               Beyond data/AI, you'll find me on the soccer field, immersed in a movie or anime, or hiking trails.{" "}
               <span className="text-violet-300 font-bold">
-                 Actively seeking full-time positions, where I can drive real-world impact with my analytical skill & research mindset.{" "}
+                 Actively seeking full-time positions,{" "}
               </span>
-               so if you’re after someone who thrives on solving complex challenges, let’s connect!
+               so if you’re after someone who thrives on solving complex challenges in data/AI, let’s connect!
             </p>
             <div className="flex space-x-4">
               <a
