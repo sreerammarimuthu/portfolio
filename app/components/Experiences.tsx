@@ -20,14 +20,27 @@ const experiences = [
     title: "Data Scientist",
     company: "Harvard Medical School & Massachusetts General Hospital",
     date: "June 2025 - Present",
-    duration: "2 months",
+    duration: "4 months",
     location: "Boston, Massachusetts, United States",
     icon: FaSearch,
     description: [
-      "In this summer internship, I'm currently engaged in research projects with Dr. Zhen Duan's team in the Disparities Research Unit at Harvard Medical School & Mass General Hospital.",
-      "Researching on how childhood trauma (ACEs) shapes alcohol use, using interviews and surveys with underserved communities, utilizing both Qualitative & Mixed Methods.",
-      "Co-writing two papers: code medical data, data pre-processing, run logistic and mixed models, draft journal-ready findings.",
-      "Cleaned & analyzed high dimensional survey dataset, linking trauma profiles to AUDs, guiding targeted health programs.",
+      "In this summer internship, I led a Latent Class Analysis (LCA) linking Adverse Childhood Experience profiles to alcohol‑ and drug‑use risk in underserved populations; designed, fitted, and validated the modeling process, utilized a mixed‑methods approach.",
+      "Built an end‑to‑end research pipeline (Python+R) - survey data pre-processing, medical coding, LCA modeling, cartesian associations, and a multi-variate regression analysis adjusting for predictors to find ORs, while reducing the analysis time by more than half.",
+      "Co‑authored two clinical research papers focused on Psychology, specifically 'Latent Class Profiling' & 'Two part semicontinuous modeling' over the summer (both under review).",
+      "Interpreted the ML modeling results & associations with Dr. Jenny Zhen‑Duan and the MGH Disparities Research Unit, to effectively inform community‑health interventions.",
+    ],
+  },
+    {
+    title: "AI & Analytics Engineer",
+    company: "Worcester Polytechnic Institute",
+    date: "June 2025 - August 2025",
+    duration: "3 months",
+    location: "Worcester, Massachusetts, United States",
+    icon: FaLaptopCode,
+    description: [
+      "Collaborated once again with Dr. Andrew Trapp this time on the SWAP project, leveraging AI to improve resource-sharing among nonprofits.",
+      "Built and integrated AI to the existing SWAP hub (a resource-sharing platform for NPOs), to improve scalability by identifying potential unseen matches based on previous offers and NPO specific information.",
+      "Utilized the latest OSS model with browsing capabilities, to suggest real-time additional needs based on primary needs listed, and improve user experience among NPOs for a smooth barter system.",
     ],
   },
   {
@@ -68,10 +81,9 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaUsers,
     description: [
-      "Streamlined front-desk operations and administrative workflows, enhancing onboarding efficiency and enhancing the graduate student experience.",
+      "Managed data analysis & research tasks for special projects to identify service gaps in graduate support services, informing evidence-based improvements in student retention and integration strategies.",
+      "Streamlined front-desk operations and administrative workflows, enhancing onboarding efficiency and partnered with Graduate Admissions and Student Success teams, translating insights into actionable improvements for a more inclusive and positive graduate student experience.",
       "Led interactive events, initiatives and sessions, fostering community-building and easing cultural transitions for new graduate cohorts.",
-      "Conducted data analysis and research tasks to identify service gaps in graduate support services, informing evidence-based improvements in student retention and integration strategies.",
-      "Partnered with Graduate Admissions and Student Success teams, translating insights into actionable improvements for a more inclusive and positive graduate student experience.",
     ],
   },
     {
@@ -135,8 +147,8 @@ const experiences = [
   {
     title: "Application Development Analyst",
     company: "Accenture",
-    date: "December 2022 - April 2023",
-    duration: "5 months",
+    date: "December 2022 - July 2023",
+    duration: "8 months",
     location: "Chennai, Tamil Nadu, India",
     icon: FaBriefcase,
     description: [
