@@ -47,9 +47,14 @@ const awards = [
 
 const volunteering = [
   {
-    role: "Mentor",
+    role: "Alumni Mentor",
     organization: "Worcester Polytechnic Institute",
-    date: "Jan 2025 - Present",
+    date: "Aug 2025 - Present",
+  },
+  {
+    role: "Graduate Peer Mentor",
+    organization: "Worcester Polytechnic Institute",
+    date: "Jan 2025 - May 2025",
   },
   {
     role: "Officer",
