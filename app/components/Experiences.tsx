@@ -16,7 +16,7 @@ import {
 } from "react-icons/fa"
 
 const experiences = [
-    {
+  {
     title: "Data Scientist",
     company: "Harvard Medical School & Massachusetts General Hospital",
     date: "June 2025 - Present",
@@ -24,13 +24,13 @@ const experiences = [
     location: "Boston, Massachusetts, United States",
     icon: FaSearch,
     description: [
-      "In this summer internship, I led a Latent Class Analysis (LCA) linking Adverse Childhood Experience profiles to alcohol‑ and drug‑use risk in underserved populations; designed, fitted, and validated the modeling process, utilized a mixed‑methods approach.",
-      "Built an end‑to‑end research pipeline (Python+R) - survey data pre-processing, medical coding, LCA modeling, cartesian associations, and a multi-variate regression analysis adjusting for predictors to find ORs, while reducing the analysis time by more than half.",
-      "Co‑authored two clinical research papers focused on Psychology, specifically 'Latent Class Profiling' & 'Two part semicontinuous modeling' over the summer (both under review).",
-      "Interpreted the ML modeling results & associations with Dr. Jenny Zhen‑Duan and the MGH Disparities Research Unit, to effectively inform community‑health interventions.",
+      "In this summer internship, I led a Latent Class Analysis (LCA) linking Adverse Childhood Experience profiles to alcohol- and drug-use risk in underserved populations; designed, fitted, and validated the modeling process, utilized a mixed-methods approach.",
+      "Built an end-to-end research pipeline (Python+R) - survey data pre-processing, medical coding, LCA modeling, cartesian associations, and a multi-variate regression analysis adjusting for predictors to find ORs, while reducing the analysis time by more than half.",
+      "Co-authored two clinical research papers focused on Psychology, specifically 'Latent Class Profiling' & 'Two part semicontinuous modeling' over the summer (both under review).",
+      "Interpreted the ML modeling results & associations with Dr. Jenny Zhen-Duan and the MGH Disparities Research Unit, to effectively inform community-health interventions.",
     ],
   },
-    {
+  {
     title: "AI & Analytics Engineer",
     company: "Worcester Polytechnic Institute",
     date: "June 2025 - August 2025",
@@ -86,7 +86,7 @@ const experiences = [
       "Led interactive events, initiatives and sessions, fostering community-building and easing cultural transitions for new graduate cohorts.",
     ],
   },
-    {
+  {
     title: "Machine Learning Engineer",
     company: "Discern Health",
     date: "August 2024 - December 2024",
@@ -94,7 +94,7 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
     description: [
-      "Led a clinical ML project on \"Frailty Detection & Management\" with Discern as part of WPI's GQP; Awarded Best Team Award for research excellence and outcomes.",
+      'Led a clinical ML project on "Frailty Detection & Management" with Discern as part of WPI\'s GQP; Awarded Best Team Award for research excellence and outcomes.',
       "Integrated diverse clinical, socioeconomic, and claims data to identify key frailty markers (e.g., comorbidity scores, ADL limitations), and improved model interpretability.",
       "Designed & modeled 10 Experimental variations - 3 focused on Predictive modeling (Frailty Detection -> Kim CFI Score forecasting) and 7 dedicated to Phenotype Modeling - spanning over whole patient populations, gender-specific subgroups, and top-feature subsets to ensure comprehensive, data-driven insights.",
       "Built predictive models to forecast Kim CFI frailty scores, achieving RMSE: 0.0052 and R²: 0.9956 using AutoML and Lasso-based feature selection.",
@@ -110,10 +110,10 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
     description: [
-      "Partnered with Prof. Andrew Trapp and Intrare (a social impact startup in Mexico City) on a Directed Research project improving fairness and performance in AI-based job-matching systems.", 
+      "Partnered with Prof. Andrew Trapp and Intrare (a social impact startup in Mexico City) on a Directed Research project improving fairness and performance in AI-based job-matching systems.",
       "Boosted algorithm performance by implementing asynchronous data pipelines, batching API calls, and refining semantic similarity scoring to handle candidate-job data more efficiently.",
       "Designed & executed 6 AI bias experiments systematically over demographic signals (e.g., age, gender, nationality), analyzing disparities using model residuals.",
-      "Delivered actionable recommendation adopted by the organization to improve fairness, semantic reliability and data quality in real-world deployments for more effective job matching."
+      "Delivered actionable recommendation adopted by the organization to improve fairness, semantic reliability and data quality in real-world deployments for more effective job matching.",
     ],
   },
   {
@@ -127,7 +127,7 @@ const experiences = [
       "Managed geo-spatial & crime data analysis across four major Texas cities, leveraging Google Maps and data mining techniques, including insights from US Census data to inform legal strategy and feasibility reports.",
       "Identified patterns in high-risk, low-income neighborhoods through clustering and demographic-crime correlation studies to support targeted interventions.",
       "Developed interactive maps, visual dashboards, streamlined data discovery and preprocessing workflows to improve stakeholder communication and decision-making.",
-      "KIP Fellow Summer 2025"
+      "KIP Fellow Summer 2025",
     ],
   },
   {
@@ -196,7 +196,7 @@ const experiences = [
     icon: FaChalkboardTeacher,
     description: [
       "Completed hands-on training in power generation, hydro and renewable energy systems, and plant operations.",
-      "Analyzed mechanical systems and energy workflows to identify efficiency improvements and reduce operational costs.", 
+      "Analyzed mechanical systems and energy workflows to identify efficiency improvements and reduce operational costs.",
     ],
   },
 ]
@@ -209,58 +209,85 @@ export default function Experiences() {
       <div className="constellation-bg"></div>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold text-center text-white mb-12">Work Experience</h2>
+
         <div className="relative">
-          {/* Timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-violet-400"></div>
+          {/* 1) Mobile left rail */}
+          <div
+            className="absolute left-4 top-0 bottom-0 w-0.5 bg-violet-400 md:hidden pointer-events-none"
+            aria-hidden="true"
+          />
+          {/* 1) Desktop center rail */}
+          <div
+            className="absolute hidden md:block left-1/2 -translate-x-1/2 h-full w-0.5 bg-violet-400"
+            aria-hidden="true"
+          />
 
           {experiences.map((exp, index) => (
             <div
               key={index}
-              className={`mb-8 flex justify-between items-start relative ${
-                index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+              className={`mb-8 relative flex flex-col md:flex-row md:justify-between md:items-start ${
+                index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
               }`}
             >
-              {/* Timeline dot */}
-              <div className="absolute left-1/2 transform -translate-x-1/2 w-4 h-4 bg-violet-400 rounded-full border-4 border-[#2d0b44]"></div>
-
-              {/* Content */}
+              {/* 3) Timeline dot positioned for mobile & desktop */}
               <div
-                className={`w-5/12 ${
-                  index % 2 === 0 ? "pr-8" : "pl-8"
-                } transition-all duration-300 hover:-translate-y-1`}
+                className="absolute left-4 md:left-1/2 top-6 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2 w-4 h-4 bg-violet-400 rounded-full border-4 border-[#2d0b44]"
+                aria-hidden="true"
+              />
+
+              {/* 4) Content column full-width on mobile with left gutter; desktop keeps 5/12 */}
+              <div
+                className={`w-full md:w-5/12 pl-10 md:pl-0 ${
+                  index % 2 === 0 ? "md:pr-8" : "md:pl-8"
+                } transition-all duration-300 hover:-translate-y-1 will-change-transform min-w-0`}
               >
                 <div
+                  role="button"
+                  tabIndex={0}
+                  aria-expanded={expandedCard === index}
+                  onKeyDown={(e) => {
+                    if (e.key === "Enter" || e.key === " ") {
+                      setExpandedCard(expandedCard === index ? null : index)
+                    }
+                  }}
                   className="bg-[#2d0b44] rounded-lg p-6 shadow-lg hover:shadow-xl hover:shadow-violet-700 transition-all duration-300 cursor-pointer"
                   onClick={() => setExpandedCard(expandedCard === index ? null : index)}
                 >
-                  <div className="flex items-center justify-between mb-4">
-                    <div className="flex items-center">
-                      <exp.icon className="text-violet-400 mr-3" size={24} />
-                      <div>
-                        <h3 className="text-xl font-semibold text-white">{exp.title}</h3>
-                        <p className="text-violet-300">{exp.company}</p>
-                        <p className="text-gray-400 text-sm">{exp.date}</p>
-                        <p className="text-gray-400 text-sm">{exp.location}</p>
+                  <div className="flex items-start justify-between gap-3 mb-2">
+                    <div className="flex items-start gap-3 min-w-0">
+                      <exp.icon className="text-violet-400 mt-1 shrink-0" size={20} />
+                      <div className="min-w-0">
+                        <h3 className="text-lg sm:text-xl font-semibold text-white leading-snug">
+                          {exp.title}
+                        </h3>
+                        <p className="text-violet-300 text-sm sm:text-base truncate">{exp.company}</p>
+                        <p className="text-gray-400 text-xs sm:text-sm">{exp.date}</p>
+                        <p className="text-gray-400 text-xs sm:text-sm">{exp.location}</p>
                       </div>
                     </div>
-                    <button className="text-violet-400 hover:text-violet-300 transition-colors ml-4">
+                    <button
+                      className="text-violet-400 hover:text-violet-300 transition-colors shrink-0"
+                      aria-label={expandedCard === index ? "Collapse" : "Expand"}
+                    >
                       {expandedCard === index ? <FaChevronUp size={20} /> : <FaChevronDown size={20} />}
                     </button>
                   </div>
 
-                  {/* Expandable description */}
+                  {/* 6) Readable text & wrapping on mobile */}
                   {expandedCard === index && (
-                    <ul className="list-disc list-inside text-gray-300 space-y-2 mt-4">
+                    <ul className="list-disc list-inside text-gray-300 space-y-2 mt-4 text-sm sm:text-base">
                       {exp.description.map((item, i) => (
-                        <li key={i}>{item}</li>
+                        <li key={i} className="break-words">
+                          {item}
+                        </li>
                       ))}
                     </ul>
                   )}
                 </div>
               </div>
 
-              {/* Empty space for timeline alignment */}
-              <div className="w-5/12"></div>
+              {/* 5) Spacer only on desktop to preserve alternating layout */}
+              <div className="hidden md:block md:w-5/12" />
             </div>
           ))}
         </div>
@@ -268,4 +295,3 @@ export default function Experiences() {
     </section>
   )
 }
-
