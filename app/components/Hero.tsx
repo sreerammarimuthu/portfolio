@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react"
 import { FaGithub, FaLinkedin, FaEnvelope, FaChevronDown, FaFileDownload } from "react-icons/fa"
 
-const RESUME_URL =  "/portfolio/Resume_Sreeram Marimuthu.pdf"
+const RESUME_URL =  "/portfolio/public/Resume_Sreeram Marimuthu.pdf"
 
 export default function Hero() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
