@@ -6,7 +6,7 @@ export default function About() {
     <section id="about" className="py-20 bg-black relative section-container">
       <div className="constellation-bg"></div>
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <div className="mb-8"></div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-6">
