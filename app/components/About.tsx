@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section id="about" className="py-20 bg-black relative section-container">
       <div className="constellation-bg"></div>
-      <div className="max-w-8xl mx-auto px-12">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
           <div className="order-2 md:order-1">
             <div className="mb-8"></div>
