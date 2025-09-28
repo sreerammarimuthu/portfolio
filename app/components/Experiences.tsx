@@ -45,7 +45,7 @@ const experiences = [
   },
   {
     title: "Research Analyst",
-    company: "City of Worcester",
+    company: "The City of Worcester",
     date: "September 2024 - May 2025",
     duration: "9 months",
     location: "Worcester, Massachusetts, United States",
@@ -59,8 +59,8 @@ const experiences = [
     ],
   },
   {
-    title: "Research Study Assistant",
-    company: "Worcester Polytechnic Institute",
+    title: "Research Assistant",
+    company: "WPI, Department of Data Science",
     date: "August 2024 - May 2025",
     duration: "10 months",
     location: "Worcester, Massachusetts, United States",
@@ -103,8 +103,8 @@ const experiences = [
     ],
   },
   {
-    title: "Research Assistant II",
-    company: "Worcester Polytechnic Institute",
+    title: "Research Assistant",
+    company: "WPI, The Business School",
     date: "August 2024 - December 2024",
     duration: "5 months",
     location: "Worcester, Massachusetts, United States",
@@ -132,7 +132,7 @@ const experiences = [
   },
   {
     title: "Research Assistant",
-    company: "Worcester Polytechnic Institute",
+    company: "WPI, The Business School",
     date: "March 2024 - June 2024",
     duration: "4 months",
     location: "Worcester, Massachusetts, United States",
