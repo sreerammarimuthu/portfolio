@@ -13,24 +13,26 @@ export default function About() {
               Hi, I'm Sreeram
             </h1>
             <p className="text-gray-300 mb-6 text-justify">
-              I'm a Data Scientist/AI Researcher, graduated with a Master's from WPI (4.0 GPA), I thrive at the intersection of curiosity and meaningful impact. My work extends across Human-in-the-Loop, Behavioral Analysis, Cognitive Psychology, Healthcare Systems, Geo-Spatial Crime Analytics, and Non-Profit initiatives, where I utilized data, AI & research to make a difference.
+              I’m a Data Scientist & AI Researcher with a Master’s from WPI, I thrive at the intersection of curiosity & meaningful impact.    
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              I bring 3+ years of professional experience from Accenture as an Analyst, along with extensive research experience at ACT, City of Worcester, WPI and currently Harvard-MGH. My current research dives deep into Human-in-the-Loop Data Integration enhancing Human-AI convergence, along with studying hidden biases in AI job-matching systems (gender, race, age, status) and leveraging AI for upscaling resource sharing among NPOs. 
+              My research dives into Human in the Loop systems, LLM Evaluation & Hallucination mitigation, Behavioral analysis, Cognitive Psychology, and AI bias & fairness. Lately, I’ve been researching how AI connects across disciplines.     
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              Recently, I first-authored a paper on Cognitive reasoning across humans, ML, and LLMs, published at ACM SIGMOD HILDA '25. In my current position, I study how different adverse childhood experiences affect a person's mental well-being, through 'Latent Class Profiling' & 'Two-part semicontinuous modeling', co-authoring 3 psychological research papers, working as a Data Scientist Intern at Harvard-MGH. 
+              NF put it best: "What's my definition of success? Creating something no one else can."      
             </p>     
             <p className="text-gray-300 mb-6 text-justify">
-              For my GQP, I partnered with Discern Health in Fall '24, and applied ML to design 10 experiments for frailty detection (Kim CFI forecasting, phenotype modeling on 53 indicators), achieving RMSE 0.0052, R² 0.9956, and AUCs up to 0.98 across patient strata, utilizing diverse clinical, sociodemographic factors, claims data, ICD-10 codes, & HCC data.
+              My goal? Leave the world a better place than I found it & let my work do the same. It’s the thread running through everything I’ve done so far, and I plan to keep chasing it, with more research & maybe a PhD along the way.    
             </p>     
             <p className="text-gray-300 mb-6 text-justify">
-              Beyond data/AI, you'll find me on the soccer field, immersed in a movie or anime, or hiking trails.{" "}
-              <span className="text-violet-300 font-bold">
-                 Actively seeking full-time positions,{" "}
-              </span>
-               I bring an unique set of analytical skills, research mindset, and drive for real-world impact, so if you’re after someone who thrives on solving complex challenges, let’s connect!
-            </p>
+              I’ve spent 4+ years working across tech, research, and impact, from my time at Accenture as an analyst to numerous research positions at WPI, Harvard Medical School, non-profits, the City, a few startups and the healthcare sector, utilizing data & AI to drive real change.     
+            </p> 
+            <p className="text-gray-300 mb-6 text-justify">
+              I’m always happy to talk about what I’m working on or swap ideas. Beyond data/AI, you'll find me on the soccer field, immersed in a movie/anime, or on hiking trails.          
+            </p> 
+            <p className="text-gray-300 mb-6 text-justify">
+              If you’re after someone who thrives on solving the complex challenges in the data/AI space, let’s connect!     
+            </p> 
             <div className="flex space-x-4">
               <a
                 href="https://github.com/sreerammarimuthu"
