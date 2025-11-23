@@ -15,21 +15,6 @@ import {
   FaCalendarAlt,
 } from "react-icons/fa"
 
-<ul>
-  {description.map((item, i) => (
-    <li
-      key={i}
-      style={
-        noBulletFirstLine && i === 0
-          ? { listStyleType: "none", paddingLeft: 0 }
-          : {}
-      }
-    >
-      {item}
-    </li>
-  ))}
-</ul>
-
 const experiences = [
   {
     title: "Data Scientist",
@@ -38,7 +23,6 @@ const experiences = [
     duration: "4 months",
     location: "Boston, Massachusetts, United States",
     icon: FaSearch,
-    noBulletFirstLine: true,
     description: [
       "📍Disparities Research Unit , PI - Dr. Jenny Zhen-Duan",
       "Led statistical analysis, studying how adverse childhood experiences affect a person's mental well-being, using Latent Class Profiling and two-part semicontinuous modeling, cutting analysis time by 50%.",
