@@ -25,7 +25,7 @@ const experiences = [
     icon: FaSearch,
     description: [
       "📍Disparities Research Unit , PI - Dr. Jenny Zhen-Duan",
-      "Led statistical analysis, studying how adverse childhood experiences affect a person's mental well-being, using Latent Class Profiling and two-part semicontinuous modeling, cutting analysis time by 50%+.",
+      "Led statistical analysis, studying how adverse childhood experiences affect a person's mental well-being, using Latent Class Profiling and two-part semicontinuous modeling, cutting analysis time by 50%.",
       "Built an end-to-end pipeline (Python + R) for survey preprocessing, transcript coding, modeling, and regression analysis of predictors and odds ratios.",
       "Co-authored 2 psychological research papers translating ML findings into community health interventions.",
     ],
