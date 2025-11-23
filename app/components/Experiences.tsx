@@ -24,10 +24,10 @@ const experiences = [
     location: "Boston, Massachusetts, United States",
     icon: FaSearch,
     description: [
-      "In this summer internship, I led a Latent Class Analysis (LCA) linking Adverse Childhood Experience profiles to alcohol- and drug-use risk in underserved populations; designed, fitted, and validated the modeling process, utilized a mixed-methods approach.",
-      "Built an end-to-end research pipeline (Python+R) - survey data pre-processing, medical coding, LCA modeling, cartesian associations, and a multi-variate regression analysis adjusting for predictors to find ORs, while reducing the analysis time by more than half.",
-      "Co-authored two clinical research papers focused on Psychology, specifically 'Latent Class Profiling' & 'Two part semicontinuous modeling' over the summer (both under review).",
-      "Interpreted the ML modeling results & associations with Dr. Jenny Zhen-Duan and the MGH Disparities Research Unit, to effectively inform community-health interventions.",
+      "📍Disparities Research Unit , PI - Dr. Jenny Zhen-Duan",
+      "Led statistical analysis, studying how adverse childhood experiences affect a person's mental well-being, using Latent Class Profiling and two-part semicontinuous modeling, cutting analysis time by 50%+.",
+      "Built an end-to-end pipeline (Python + R) for survey preprocessing, transcript coding, modeling, and regression analysis of predictors and odds ratios.",
+      "Co-authored 2 psychological research papers translating ML findings into community health interventions.",
     ],
   },
   {
