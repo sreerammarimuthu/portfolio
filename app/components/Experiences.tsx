@@ -55,7 +55,7 @@ const experiences = [
   },
   {
     title: "Data Scientist",
-    company: "Harvard Medical School & Massachusetts General Hospital",
+    company: "Harvard Medical School & MGH",
     date: "June 2025 - September 2025",
     duration: "4 months",
     location: "Boston, Massachusetts, United States",
@@ -150,7 +150,7 @@ const experiences = [
   },
   {
     title: "Research Intern",
-    company: "Act",
+    company: "Advocates for Community Transformation (ACT)",
     date: "May 2024 - July 2024",
     duration: "3 months",
     location: "Dallas, Texas, United States",
