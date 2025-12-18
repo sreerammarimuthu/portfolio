@@ -16,10 +16,47 @@ import {
 } from "react-icons/fa"
 
 const experiences = [
+    {
+    title: "Data Scientist",
+    company: "Mass General Brigham Research",
+    date: "November 2025 - Present",
+    duration: "3 months",
+    location: "Boston, Massachusetts, United States",
+    icon: FaSearch,
+    description: [
+      "📍The Mongan Institute, Health Policy Research Center , PIs - Dr. Stephen Bartels (the Director), Dr. Giselle Perez",
+      "Contributing to a PCORI-funded research study evaluating interventions to improve resiliency and reduce burnout among behavioral health residential staff.",
+    ],
+  },
+    {
+    title: "Assistant Research Scientist",
+    company: "Worcester Polytechnic Institute",
+    date: "October 2025 - Present",
+    duration: "4 months",
+    location: "Worcester, Massachusetts, United States",
+    icon: FaSearch,
+    description: [
+      "📍Yielding Optimal Solutions for Scientific Data Intelligence (YOSSI) lab , PI - Dr. Roee Shraga",
+      "Leading follow-up research on human-in-the-loop data integration, extending prior work HILDA '25 paper for optimal accuracy. Evaluating the performance of 8 different open source LLMs over 10 experiments and benchmarking the results on table union utilizing human cognition. ",
+      "Co-authoring a journal paper, detailing advanced methods to integrate human cognitive insights & LLM capabilities in schema matching (results submitted to VLDB 2025).",
+    ],
+  },
+      {
+    title: "AI Research Engineer",
+    company: "Worcester Polytechnic Institute",
+    date: "September 2025 - Present",
+    duration: "5 months",
+    location: "Worcester, Massachusetts, United States",
+    icon: FaLaptopCode,
+    description: [
+      "Conducting AI research to reduce LLM hallucinations & evaluate model variants for image generation.",
+      "Lead product analytics to measure user behavior and outcomes, and support product engineering across backend database architecture for payments and compliance & the React UI.",
+    ],
+  },
   {
     title: "Data Scientist",
     company: "Harvard Medical School & Massachusetts General Hospital",
-    date: "June 2025 - Present",
+    date: "June 2025 - September 2025",
     duration: "4 months",
     location: "Boston, Massachusetts, United States",
     icon: FaSearch,
