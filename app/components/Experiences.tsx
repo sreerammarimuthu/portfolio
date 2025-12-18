@@ -75,9 +75,10 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
     description: [
-      "Collaborated once again with Dr. Andrew Trapp this time on the SWAP project, leveraging AI to improve resource-sharing among nonprofits.",
-      "Built and integrated AI to the existing SWAP hub (a resource-sharing platform for NPOs), to improve scalability by identifying potential unseen matches based on previous offers and NPO specific information.",
-      "Implemented the latest OSS model with browsing capabilities, to suggest real-time additional needs based on primary needs listed, and improve user experience among NPOs for a smooth barter system.",
+      "📍SWAP Initiative , PI - Dr. Andrew Trapp",
+      "Collaborated with PI and researchers (2 PhDs & a Postdoc) to advance AI-driven resource optimization in nonprofit ecosystems.",
+      "Developed and integrated AI into the SWAP hub nonprofit resource-sharing platform to improve scalability and predictive matching of unseen matches based on previous & NPO-specific information.",
+      "Implemented latest GPT OSS model with browsing capabilities to recommend real-time secondary needs, enhancing NPO user experience.",
     ],
   },
   {
@@ -88,11 +89,10 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaSearch,
     description: [
-      "Led data-driven public health research with the Commissioner of Health & Human Services, influencing city-wide policy and strategic planning in Worcester.",
-      "Conducted analysis of police incident report data to identify temporal and geographic crime trends, informing strategic first responder deployment and associated costs to optimize emergency resource allocation.",
-      "Performed exploratory research on homelessness patterns using PIT Count and Census data, assessing shelter availability access, demographic disparities, and service utilization.",
-      "Analyzed social, behavioral, and health determinants across 14 major Massachusetts cities in collaboration with MPHA and MLCHC to identify systemic gaps in housing and healthcare.",
-      "Developed reports and delivered presentations to support policy decisions on homelessness services, zoning, and community health planning.",
+      "📍Department of Health & Human Services , Commissioner - Dr. Matilde Castiel",
+      "Led data-driven public health research with the Commissioner, informing citywide policy & strategic planning; collaborated with MPHA/MLCHC across 14 MA cities to identify housing/healthcare gaps from social, behavioral, and health determinants.",
+      "Analyzed PIT Count, Census, and shelter data to map homelessness patterns, quantify demographic disparities, and assess service access/utilization.",
+      " Examined police incident reports to reveal temporal/geographic crime trends, optimizing first-responder deployment and associated costs.",
     ],
   },
   {
@@ -103,11 +103,10 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaGraduationCap,
     description: [
-      "Engaged in a Directed Research project with Prof. Roee Shraga, exploring Human-in-the-Loop frameworks for improving data integration & discovery tasks.",
-      "Investigating the interplay between large language models (LLMs), machine learning (ML), and human metacognition to address bias, trust, and usability in AI-assisted decision-making.",
-      "Designing and executing cognitive experiments that simulate real-world data acquisition, quantifying human reasoning under uncertainty using principles from psychology and AI.",
-      "Exploring behavioral patterns in Human-AI collaboration over tabular data, with emphasis on error correction, judgment calibration, and interpretability.",
-      "First authored a paper advancing the field of Human-AI collaboration in the context of tabular data search and preparation.",
+      "📍Yielding Optimal Solutions for Scientific Data Intelligence (YOSSI) lab , PI - Dr. Roee Shraga",
+      "First authored on an NSF-funded research paper advancing Human-AI collaboration in table unionability; led Human-in-the-Loop methods for data integration & discovery.",
+      "Designed and executed cognitive experiments simulating real-world data acquisition, quantifying human reasoning using cognitive psychology & AI.",
+      "Investigated the interplay LLM, ML, and human metacognition to improve bias, trust, and interpretability (error correction, judgment calibration) in AI-assisted decision making.",
     ],
   },
   {
@@ -118,9 +117,8 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaUsers,
     description: [
-      "Managed data analysis & research tasks for special projects to identify service gaps in graduate support services, informing evidence-based improvements in student retention and integration strategies.",
-      "Streamlined front-desk operations and administrative workflows, enhancing onboarding efficiency and partnered with Graduate Admissions and Student Success teams, translating insights into actionable improvements for a more inclusive and positive graduate student experience.",
-      "Led interactive events, initiatives and sessions, fostering community-building and easing cultural transitions for new graduate cohorts.",
+      "Conducted data analysis and research on special projects to identify service gaps and improve graduate student retention strategies. Led community-building initiatives to support cultural and academic transitions for new cohorts.",
+      "Streamlined onboarding, front-desk operations, and administrative workflows in collaboration with Grad Admissions and Student Success teams for a more inclusive experience.",
     ],
   },
   {
@@ -131,12 +129,10 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
     description: [
-      'Led a clinical ML project on "Frailty Detection & Management" with Discern as part of WPI\'s GQP; Awarded Best Team Award for research excellence and outcomes.',
-      "Integrated diverse clinical, socioeconomic, and claims data to identify key frailty markers (e.g., comorbidity scores, ADL limitations), and improved model interpretability.",
-      "Designed & modeled 10 Experimental variations - 3 focused on Predictive modeling (Frailty Detection -> Kim CFI Score forecasting) and 7 dedicated to Phenotype Modeling - spanning over whole patient populations, gender-specific subgroups, and top-feature subsets to ensure comprehensive, data-driven insights.",
-      "Built predictive models to forecast Kim CFI frailty scores, achieving RMSE: 0.0052 and R²: 0.9956 using AutoML and Lasso-based feature selection.",
-      "Performed extensive Phenotype modeling on 53 frailty-related indicators (e.g., Alzheimer’s/Dementia, Rheumatoid Arthritis, and General Health) achieving AUCs up to 0.98 and validating performance across feature importance analyses, and multiple patient strata.",
-      "Ensured model stability and scalability via cross-validation, residual analyses, and unified vs. segmented approaches, while logging all model results in MLflow on Databricks for full reproducibility and transparency, emphasizing scalable, proactive healthcare interventions, cost reductions, & improved patient outcomes.",
+      '📍WPI\'s GQP , Awarded Best Team Award for research excellence & outcomes.',
+      "Led a clinical ML project on Frailty Detection & Management, integrating clinical, socioeconomic, claims data, with ICD-10 and HCC codes to identify key frailty markers.",
+      "Designed and executed 10 experiments (predictive + phenotype modeling) across unified vs. segmented approaches, and multiple patient strata to improve interpretability and robustness.",
+      "Built predictive models achieving Kim CFI RMSE 0.0052, R² 0.9956, and frailty binary/multi classifiers with AUCs up to 0.98, while logging all model outputs in MLflow on Databricks for full reproducibility, transparency, supporting scalable proactive care at lower costs, and to improve patient outcomes.",
     ],
   },
   {
@@ -147,10 +143,9 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
     description: [
-      "Partnered with Prof. Andrew Trapp and Intrare (a social impact startup in Mexico City) on a Directed Research project improving fairness and performance in AI-based job-matching systems.",
-      "Boosted algorithm performance by implementing asynchronous data pipelines, batching API calls, and refining semantic similarity scoring to handle candidate-job data more efficiently.",
-      "Designed & executed 6 AI bias experiments systematically over demographic signals (e.g., age, gender, nationality), analyzing disparities using model residuals.",
-      "Delivered actionable recommendation adopted by the organization to improve fairness, semantic reliability and data quality in real-world deployments for more effective job matching.",
+      "📍Intrare (a Social Impact Startup) , PI - Dr. Andrew Trapp",
+      "Improved fairness and performance in AI-based job-matching systems for a social-impact startup. Boosted efficiency with asynchronous data pipelines, batched API calls, & refined semantic similarity scoring.",
+      "Designed & executed 6 AI bias experiments (age, gender, nationality), evaluating disparities via residual and subgroup analyses, with recommendations adopted in deployment.",
     ],
   },
   {
@@ -161,10 +156,9 @@ const experiences = [
     location: "Dallas, Texas, United States",
     icon: FaSearch,
     description: [
-      "Managed geo-spatial & crime data analysis across four major Texas cities, leveraging Google Maps and data mining techniques, including insights from US Census data to inform legal strategy and feasibility reports.",
-      "Identified patterns in high-risk, low-income neighborhoods through clustering and demographic-crime correlation studies to support targeted interventions.",
-      "Developed interactive maps, visual dashboards, streamlined data discovery and preprocessing workflows to improve stakeholder communication and decision-making.",
-      "KIP Fellow Summer 2025",
+      "📍KIP Fellow - Summer 2025",
+      "Executed geo-spatial crime analysis across four Texas cities utilizing Census, Google Maps, and crime data mining to inform legal strategy and support feasibility reports by building interactive maps & dashboards.",
+      "Identified narcotic crime patterns in high-risk, low-income neighborhoods through clustering and demographic-crime correlation studies supporting targeted interventions.",
     ],
   },
   {
@@ -175,10 +169,10 @@ const experiences = [
     location: "Worcester, Massachusetts, United States",
     icon: FaGraduationCap,
     description: [
-      "Led a graduate research team, working closely with the Dean of Business School and Legendary Legacies to analyze the economic and social impacts of incarceration at local and national levels.",
-      "Utilized advanced analytics to correlate socioeconomic indicators with crime and incarceration patterns, generating insights to guide policy, pre-trial diversion, and reentry investment strategies.",
-      "Extension (by myself): Independently built and integrated a live, interactive dashboard on the organization’s website, streamlining access to key incarceration metrics and enhancing strategic planning.",
-      "Designed and developed an interactive reentry simulation featuring real-world scenarios, now under consideration for use in prison rehabilitation programs to help returning citizens build readiness and ease their transition.",
+      "📍Legendary Legacies (NPO) , PIs - Dean Rev. Dr. Debora Jackson & Ron Wadell Jr. (Founder)",
+      "Led a graduate team analyzing the economic and social impacts of incarceration, identifying socioeconomic indicators linked to crime and generating insights into policy, diversion, and reentry strategies.",
+      "Extension (by myself): Independently built a live interactive dashboard integrating incarceration metrics on the organization’s website to support strategic planning.",
+      "Designed & built a reentry simulation utilizing twine, with real-world scenarios, now used in rehabilitation programs in prisons to help returning citizens’ transitions.",
     ],
   },
   {
@@ -189,11 +183,10 @@ const experiences = [
     location: "Chennai, Tamil Nadu, India",
     icon: FaBriefcase,
     description: [
-      "Spearheaded QA initiatives across cross-functional teams, reducing post-deployment issues by 15% and overall project blockers by 20% through agile Scrum practices.",
-      "Performed API, automation, and headless testing on high-volume datasets, ensuring end-to-end data integrity and system reliability.",
-      "Partnered with product owners, designers and business analysts to identify gaps, refine requirements, and enhance product quality through data-driven insights.",
-      "Delivered detailed documentation and defect analysis, accelerating resolution timelines and enhancing release efficiency.",
-      "Optimized QA workflows for stability and real-time performance, contributing to seamless platform operations.",
+      "📍Fast-track promoted from Associate, based on professional performance & proficiency shown in TechLeap Data Analytics program.",
+      "Led cross-functional QA efforts, cutting post-deployment defects by 15% and blockers by 20%, and optimized QA workflows for stability and real-time performance.",
+      "Performed API, automation, and headless testing on high-volume datasets, ensuring data integrity and system reliability.",
+      "Collaborated with product owners, designers, and business teams to refine requirements, deliver clear documentation and defect analyses to speed resolutions, and enhance release efficiency.",
     ],
   },
   {
@@ -204,12 +197,10 @@ const experiences = [
     location: "Chennai, Tamil Nadu, India",
     icon: FaLaptopCode,
     description: [
-      "Maintained zero defects across 8+ releases through rigorous manual, API, and headless testing to ensure top-tier product quality.",
-      "Automated critical workflows (e.g., contact creation) cutting the execution time from 2-3 minutes to instant, boosting operational efficiency and user experience.",
-      "Delivered quality assurance across Agile and Waterfall methodologies, adapting testing frameworks to evolving needs.",
-      "Sole Subject Matter Expert for secure, customer-facing data channels (FIRE), ensuring compliance and data integrity. Ensured it remained defect-free environment across 10 releases.",
-      "Identified and implemented innovative QA strategies, including headless testing and proactive risk assessments, to stay ahead of product-related challenges.",
-      "Completed pre-onboarding training with 100% coding accuracy in Python, SQL, XML, and test frameworks (Selenium, TestNG, UFT), accelerating readiness for full-time responsibilities.",
+      "Maintained zero defects across 8+ releases through rigorous manual, API, and headless testing to ensure product quality.",
+      "Automated critical workflows cutting processing time from minutes to instant, improving operational efficiency and user experience.",
+      "Served as SME for secure customer-facing FIRE data channels (10 defect-free releases), ensuring compliance and data integrity, introduced advanced QA methods to stay ahead of product-related challenges.",
+      "Delivered QA across Agile and Waterfall models, adapting workflows to evolving needs, and completed pre-onboarding training with full accuracy in Python, SQL, XML, and test frameworks (Selenium, TestNG, UFT).",
     ],
   },
   {
@@ -232,8 +223,7 @@ const experiences = [
     location: "Hunsur, Karnataka, India",
     icon: FaChalkboardTeacher,
     description: [
-      "Completed hands-on training in power generation, hydro and renewable energy systems, and plant operations.",
-      "Analyzed mechanical systems and energy workflows to identify efficiency improvements and reduce operational costs.",
+      "Completed hands-on training in power generation, hydro & renewable energy systems, and plant operations, analyzing electromechanical systems and energy workflows to identify efficiency improvements and reduce operational costs.",
     ],
   },
 ]
