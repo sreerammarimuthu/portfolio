@@ -43,7 +43,7 @@ const experiences = [
   },
       {
     title: "AI Research Engineer",
-    company: "Worcester Polytechnic Institute",
+    company: "VizyPlan",
     date: "September 2025 - Present",
     duration: "5 months",
     location: "Worcester, Massachusetts, United States",
