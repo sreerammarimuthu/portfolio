@@ -44,7 +44,7 @@ const experiences = [
       {
     title: "AI Research Engineer",
     company: "VizyPlan",
-    date: "September 2025 - Present",
+    date: "September 2025 - December 2025",
     duration: "5 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
