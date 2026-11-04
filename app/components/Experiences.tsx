@@ -53,9 +53,6 @@ const experiences = [
     duration: "8 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
-    description: [
-      "Conducting AI research to reduce LLM hallucinations & evaluate model variants for image generation.",
-      "Lead product analytics to measure user behavior and outcomes, and support product engineering across backend database architecture for payments and compliance & the React UI.",
     ],
   },
       {
