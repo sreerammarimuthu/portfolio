@@ -48,15 +48,16 @@ const experiences = [
   },
         {
     title: "Ambassador",
-    company: "Thinkign About Thinking",
+    company: "Thinking About Thinking",
     date: "April 2026 - Present",
     duration: "8 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
-    
-          ,
+    description: [
+      "AI Research Ambassador",
+    ],
   },
-      {
+    {
     title: "AI Research Engineer",
     company: "VizyPlan",
     date: "September 2025 - December 2025",
