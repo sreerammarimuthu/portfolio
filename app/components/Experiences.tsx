@@ -20,7 +20,7 @@ const experiences = [
     title: "Data Scientist",
     company: "Mass General Brigham Research",
     date: "November 2025 - Present",
-    duration: "3 months",
+    duration: "1 year 1 month",
     location: "Boston, Massachusetts, United States",
     icon: FaSearch,
     description: [
@@ -36,7 +36,7 @@ const experiences = [
     title: "Human-AI Researcher",
     company: "Worcester Polytechnic Institute",
     date: "October 2025 - Present",
-    duration: "4 months",
+    duration: "1 year 2 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaSearch,
     description: [
@@ -46,12 +46,24 @@ const experiences = [
       "Investigating hallucination detection and confidence calibration in LLMs using semantic entropy, coherence and faithfulness checks.",
     ],
   },
+        {
+    title: "Ambassador",
+    company: "Thinkign About Thinking",
+    date: "April 2026 - Present",
+    duration: "8 months",
+    location: "Worcester, Massachusetts, United States",
+    icon: FaLaptopCode,
+    description: [
+      "Conducting AI research to reduce LLM hallucinations & evaluate model variants for image generation.",
+      "Lead product analytics to measure user behavior and outcomes, and support product engineering across backend database architecture for payments and compliance & the React UI.",
+    ],
+  },
       {
     title: "AI Research Engineer",
     company: "VizyPlan",
     date: "September 2025 - December 2025",
-    duration: "5 months",
-    location: "Worcester, Massachusetts, United States",
+    duration: "4 months",
+    location: "Boston, Massachusetts, United States",
     icon: FaLaptopCode,
     description: [
       "Conducting AI research to reduce LLM hallucinations & evaluate model variants for image generation.",
