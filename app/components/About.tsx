@@ -16,7 +16,7 @@ export default function About() {
               I’m a Data Scientist & AI Researcher with a Master’s from WPI, I thrive at the intersection of curiosity & meaningful impact.    
             </p>
             <p className="text-gray-300 mb-6 text-justify">
-              My research dives into Human in the Loop systems, LLM Evaluation & Hallucination mitigation, Behavioral analysis, Cognitive Psychology, and AI bias & fairness. Lately, I’ve been researching how AI connects across disciplines.     
+              My research lives at the intersection of people & technology, diving into Human-AI interaction, LLM Evaluation & Hallucination mitigation, NLP, Data Integration, Behavioral analysis, and Cognitive Psychology. Lately, I’ve been researching how AI connects across disciplines, with a focus on making it more reliable, fair, and effectively applied in medicine & healthcare.    
             </p>
             <p className="text-gray-300 mb-6 text-justify">
               NF put it best: "What's my definition of success? Creating something no one else can."      
