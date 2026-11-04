@@ -53,7 +53,8 @@ const experiences = [
     duration: "8 months",
     location: "Worcester, Massachusetts, United States",
     icon: FaLaptopCode,
-    ],
+    
+          ,
   },
       {
     title: "AI Research Engineer",
