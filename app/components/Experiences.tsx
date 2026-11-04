@@ -25,11 +25,15 @@ const experiences = [
     icon: FaSearch,
     description: [
       "📍The Mongan Institute, Health Policy Research Center , PIs - Dr. Stephen Bartels (the Director), Dr. Giselle Perez",
-      "Contributing to a PCORI-funded research study evaluating interventions to improve resiliency and reduce burnout among behavioral health residential staff.",
+      "Lead statistical analysis for a PCORI-funded study evaluating interventions to improve burnout and build resilience among behavioral health residential staff.",
+      "Model longitudinal outcomes on validated psychometric measures ([e.g., burnout and resilience scales]) using multilevel mixed-effects models, accounting for repeated measures nested within staff and sites.",
+      "Apply survival analysis to model time to staff turnover, handling right-censoring, & time-varying covariates.",
+      "Resolved data challenges including attrition across waves, missing follow-ups, inconsistent site-level records.",
+      "Built reproducible data pipelines and monitoring dashboards for data curation, visualization, and project evaluation to support PI-level decision-making and manuscript preparation.",
     ],
   },
     {
-    title: "Assistant Research Scientist",
+    title: "Human-AI Researcher",
     company: "Worcester Polytechnic Institute",
     date: "October 2025 - Present",
     duration: "4 months",
@@ -37,8 +41,9 @@ const experiences = [
     icon: FaSearch,
     description: [
       "📍Yielding Optimal Solutions for Scientific Data Intelligence (YOSSI) lab , PI - Dr. Roee Shraga",
-      "Leading follow-up research on human-in-the-loop data integration, extending prior work HILDA '25 paper for optimal accuracy. Evaluating the performance of 8 different open source LLMs over 10 experiments and benchmarking the results on table union utilizing human cognition. ",
-      "Co-authoring a journal paper, detailing advanced methods to integrate human cognitive insights & LLM capabilities in schema matching (results submitted to VLDB 2025).",
+      "Co-led a paper extending our prior HILDA '25 work on human-in-the-loop data integration, evaluating 8 open-source LLMs on table union benchmarks utilizing human cognition (accepted - PVLDBv9, VLDB '26).",
+      "First author, Right for the Wrong Reasons (BioDMS @ VLDB ‘26): benchmarked LLM hallucination and clinical safety in medical triage on MIMIC cases.",
+      "Investigating hallucination detection and confidence calibration in LLMs using semantic entropy, coherence and faithfulness checks.",
     ],
   },
       {
